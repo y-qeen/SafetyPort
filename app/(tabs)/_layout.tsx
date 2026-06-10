@@ -8,7 +8,7 @@ import { useColorScheme } from "@/hooks/use-color-scheme";
 
 
 export const unstable_settings = {
-  initialRouteName: "awareness",
+  initialRouteName: "login",
 };
 
 export default function TabLayout() {
