@@ -8,7 +8,7 @@ import { useColorScheme } from "@/hooks/use-color-scheme";
 
 
 export const unstable_settings = {
-  initialRouteName: "login",
+  initialRouteName: "awareness",
 };
 
 export default function TabLayout() {
@@ -23,18 +23,18 @@ export default function TabLayout() {
     >
 
       <Tabs.Screen
-        name="login"
+        name="awareness"
         options={{
-          title: "Login",
+          title: "Awareness",
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="house.fill" color={color} />
           ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="respond"
         options={{
-          title: "Explore",
+          title: "Respond",
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="paperplane.fill" color={color} />
           ),
